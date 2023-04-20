@@ -1,6 +1,8 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
-import { dev } from '$app/environment';
+const dev = process.argv.includes('dev');
+// import adapter from '@sveltejs/adapter-auto';
+// import { dev } from '$app/environment';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
