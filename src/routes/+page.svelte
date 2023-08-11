@@ -21,14 +21,6 @@
   <h1>Coming Soon</h1>
 </div>
 
-<style>
-  .hero-text {
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-  }
-</style>
-
 
 <style>
 .waves-container {
@@ -54,9 +46,9 @@
   fill: #333;
 }
 
-/*.hero-text {*/
-/*  color: white;*/
-/*  font-size: 2rem;*/
-/*  text-align: center;*/
-/*}*/
+.hero-text {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
 </style>

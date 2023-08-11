@@ -1,0 +1,41 @@
+[debug] [2023-08-11T18:56:15.662Z] ----------------------------------------------------------------------
+[debug] [2023-08-11T18:56:15.663Z] Command:       /Users/seanp/.nvm/versions/node/v18.16.1/bin/node /Users/seanp/.nvm/versions/node/v18.16.1/bin/firebase deploy
+[debug] [2023-08-11T18:56:15.664Z] CLI Version:   12.4.7
+[debug] [2023-08-11T18:56:15.664Z] Platform:      darwin
+[debug] [2023-08-11T18:56:15.664Z] Node Version:  v18.16.1
+[debug] [2023-08-11T18:56:15.665Z] Time:          Fri Aug 11 2023 13:56:15 GMT-0500 (Central Daylight Time)
+[debug] [2023-08-11T18:56:15.665Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-11T18:56:15.697Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-11T18:56:15.697Z] > authorizing via signed-in user (sean.poston4@gmail.com)
+[debug] [2023-08-11T18:56:15.697Z] [iam] checking project portfolio-f4820 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-08-11T18:56:15.698Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-f4820:testIamPermissions [none]
+[debug] [2023-08-11T18:56:15.698Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-f4820:testIamPermissions x-goog-quota-user=projects/portfolio-f4820
+[debug] [2023-08-11T18:56:15.698Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-f4820:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-11T18:56:15.937Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-f4820:testIamPermissions 200
+[debug] [2023-08-11T18:56:15.937Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-f4820:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-11T18:56:15.939Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-f4820 [none]
+[debug] [2023-08-11T18:56:16.119Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-f4820 200
+[debug] [2023-08-11T18:56:16.119Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-f4820 {"projectId":"portfolio-f4820","projectNumber":"14754735221","displayName":"Portfolio","name":"projects/portfolio-f4820","resources":{"hostingSite":"portfolio-f4820"},"state":"ACTIVE","etag":"1_1a3b12f1-a757-49c5-9078-1646aaf5dab4"}
+[info] 
+   Thank you for trying our experimental support for SvelteKit on Firebase Hosting.
+   While this integration is maintained by Googlers it is not a supported Firebase product.
+   Issues filed on GitHub will be addressed on a best-effort basis by maintainers and other community members.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/frameworks-overview
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2023-08-11T18:56:19.415Z] ParseError: You can only have one top-level <style> tag per component
+    at error (file:///Users/seanp/Documents/Projects/Portfolio/node_modules/svelte/compiler.mjs:13140:19)
+    at Parser$1.error (file:///Users/seanp/Documents/Projects/Portfolio/node_modules/svelte/compiler.mjs:13218:9)
+    at parse$a (file:///Users/seanp/Documents/Projects/Portfolio/node_modules/svelte/compiler.mjs:13321:16)
+    at compile (file:///Users/seanp/Documents/Projects/Portfolio/node_modules/svelte/compiler.mjs:43782:17)
+    at compileSvelte2 (file:///Users/seanp/Documents/Projects/Portfolio/node_modules/@sveltejs/vite-plugin-svelte/dist/index.js:529:22)
+    at async Object.transform (file:///Users/seanp/Documents/Projects/Portfolio/node_modules/@sveltejs/vite-plugin-svelte/dist/index.js:2243:25)
+    at async transform (file:///Users/seanp/Documents/Projects/Portfolio/node_modules/rollup/dist/es/shared/node-entry.js:23380:16)
+    at async ModuleLoader.addModuleSource (file:///Users/seanp/Documents/Projects/Portfolio/node_modules/rollup/dist/es/shared/node-entry.js:23586:30)
+[error] 
+[error] Error: An unexpected error has occurred.
