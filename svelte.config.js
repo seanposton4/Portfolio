@@ -19,7 +19,7 @@ const config = {
 			assets: 'dist'
 		}),
 		paths: {
-			base: (dev ? '' : '/Portfolio')
+			base: (dev ? '' : '')
 		}
 	}
 };
