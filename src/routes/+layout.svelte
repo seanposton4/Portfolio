@@ -2,7 +2,7 @@
 <!--  Hello, world!-->
 <!--</nav>-->
 <nav>
-  <img alt="bird-logo" src="/white-transparent-logo.png" height="300px"/>
+  <img alt="bird-logo" src="/white-transparent-logo.png" height="125px"/>
 </nav>
 <slot></slot>
 
