@@ -23,28 +23,28 @@
 
 
 <style>
-.waves-container {
-  position: relative;
-  opacity: 85%;
-  height: 400px;
-}
-.custom-shape-divider-bottom-1689388138 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-.custom-shape-divider-bottom-1689388138 svg {
-  position: relative;
-  display: block;
-  width: calc(109% + 1.3px);
-  height: 100px;
-}
-.custom-shape-divider-bottom-1689388138 .shape-fill {
-  fill: #333;
-}
+/*.waves-container {*/
+/*  position: relative;*/
+/*  opacity: 85%;*/
+/*  height: 400px;*/
+/*}*/
+/*.custom-shape-divider-bottom-1689388138 {*/
+/*  position: absolute;*/
+/*  bottom: 0;*/
+/*  left: 0;*/
+/*  width: 100%;*/
+/*  overflow: hidden;*/
+/*  line-height: 0;*/
+/*}*/
+/*.custom-shape-divider-bottom-1689388138 svg {*/
+/*  position: relative;*/
+/*  display: block;*/
+/*  width: calc(109% + 1.3px);*/
+/*  height: 100px;*/
+/*}*/
+/*.custom-shape-divider-bottom-1689388138 .shape-fill {*/
+/*  fill: #333;*/
+/*}*/
 
 .hero-text {
   color: white;
