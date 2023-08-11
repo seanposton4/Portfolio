@@ -1,7 +1,11 @@
 <!--<nav style="border-bottom: 1px solid black; box-shadow: black; ">-->
 <!--  Hello, world!-->
 <!--</nav>-->
+<nav>
+  <img alt="bird-logo" src="/white-transparent-logo.png" height="300px"/>
+</nav>
 <slot></slot>
+
 
 <!--Theme: -->
 <!--https://coolors.co/ee6c4d-f38d68-662c91-17a398-33312e-->
