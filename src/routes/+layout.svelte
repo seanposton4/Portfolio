@@ -1,12 +1,14 @@
 <!--<nav style="border-bottom: 1px solid black; box-shadow: black; ">-->
 <!--  Hello, world!-->
 <!--</nav>-->
-<nav>
-  <img alt="bird-logo" src="/white-transparent-logo.png" height="125px"/>
+<nav class="p-4 bg-primary text-white flex justify-between align-middle gap-1">
+  <img alt="bird-logo" src="/white-transparent-logo.png" width="100px"/>
+  <div class="grid grid-cols-4 gap-8">
+    <div>Projects</div>
+    <div>About</div>
+  </div>
 </nav>
 <slot></slot>
 
 
 <!--Theme: -->
-<!--https://coolors.co/ee6c4d-f38d68-662c91-17a398-33312e-->
-<!--https://coolors.co/9ad2cb-d7ebba-feffbe-ebd494-472836-->
