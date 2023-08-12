@@ -22,7 +22,6 @@
 <script lang="ts">
   let waveHeight = 0;
   function updateSpacerHeight() {
-    const height: number = document.getElementById('wave')!.offsetHeight;
-    waveHeight = height;
+    waveHeight = document.getElementById('wave')!.offsetHeight;
   }
 </script>
