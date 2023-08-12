@@ -9,6 +9,8 @@
   </div>-->
 </nav>
 <slot></slot>
-
+<script>
+  import '../app.css';
+</script>
 
 <!--Theme: -->
