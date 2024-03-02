@@ -3,7 +3,7 @@
     <img
       alt="bird-logo"
       src="/white-transparent-logo.png"
-      width="100px"
+      width="100"
     />
   </a>
 <!--  <div class="grid grid-cols-4 gap-8">
